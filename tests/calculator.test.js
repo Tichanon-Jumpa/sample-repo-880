@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require('../src/script');
+import { add, subtract, multiply, divide} from './src/Calculator.js'
 
 describe('Calculator', () => {
     test('adds 2 + 3 to equal 5', () => {
