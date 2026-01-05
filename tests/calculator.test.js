@@ -5,13 +5,8 @@ describe('Calculator', () => {
         expect(add(2, 3)).toBe(5);
     });
 
-<<<<<<< HEAD
     test('adds -2 + -3 to equal 5', () => {
         expect(add(-2, -3)).toBe(-5);
-=======
-    test('add-2 + -3 to equal 5',() => {
-        expext(add(-2,-3)).toBe(5);
->>>>>>> 7f3f60d (add the new test case)
     });
 
     test('subtracts 5 - 3 to equal 2', () => {
